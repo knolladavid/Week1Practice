@@ -186,10 +186,15 @@ namespace Week1Practice
                 Console.WriteLine("{0} has {1} letters in it.", productList[i], productList[i].Length);
             }
         }
-             static string Greeting (string name)
-             {
-             return "Hello " + name; 
-             }
+
+        static void Greeting(string name)
+        {
+            Console.WriteLine("Hello " + name);
+            Greeting("Geronimo Jackson");
+            Greeting(name);
+        }
+
+        
 
 
             //Code block
