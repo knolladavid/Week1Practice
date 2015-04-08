@@ -157,7 +157,13 @@ namespace Week1Practice
                 Console.WriteLine(j);
                 j--;
             }
-
+            Console.WriteLine("While loop 15 to 30, only even numbers");
+            j = 15;
+            while (j <= 30)
+            {
+                Console.WriteLine(j);
+                j += 2;
+            }
             //Code block
         }
 
