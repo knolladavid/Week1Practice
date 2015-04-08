@@ -128,7 +128,16 @@ namespace Week1Practice
             {
                 Console.WriteLine(i);
             }
-
+            Console.WriteLine("For loop 10 to 1");
+            for (int i = 10; i <= 1; i--)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("For loop 10 to 30, only even numbers");
+            for (int i = 10; i <= 30; i+=2)
+            {
+                Console.WriteLine(i);
+            }
             //Code block
         }
 
