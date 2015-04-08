@@ -138,6 +138,11 @@ namespace Week1Practice
             {
                 Console.WriteLine(i);
             }
+            Console.WriteLine("For loop 100 to 75, every 5th number");
+            for (int i = 100; i >= 75; i-=5)
+            {
+                Console.WriteLine(i);
+            }
             //Code block
         }
 
