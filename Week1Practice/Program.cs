@@ -107,6 +107,28 @@ namespace Week1Practice
         //Example function declaration
         static void MyFunction(string myParameter)
         {
+            string myName = "David";
+            int myAge = 26;
+            bool myBool = true;
+            List<string> productList = new List<string>();
+            productList.Add("basketball");
+            productList.Add("baseball glove");
+            productList.Add("tennis shoes");
+            productList.Add("hockey puck");
+
+            Console.WriteLine("My name is " + myName + "and I'm a beast of a programmer.");
+            Console.WriteLine("I am " + myAge + "years awesome.");
+            Console.WriteLine("I set my boolean value equal to " + myBool);
+            for (int i = 0; i < productList.Count - 1; i++)
+            {
+                Console.WriteLine(productList[i]);
+            }
+            Console.WriteLine("For loop 1 to 10");
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
             //Code block
         }
 
