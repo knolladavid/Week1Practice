@@ -172,6 +172,20 @@ namespace Week1Practice
                 Console.WriteLine(j);
                 j -= 5;
             }
+            Console.WriteLine("While loop 1 to 10 until it reaches one that is divisible by 4");
+            j = 1;
+            while (j % 4 != 0 && (j <=10))
+            {
+                Console.WriteLine(j);
+                j++;
+            }
+            Console.WriteLine("My name, " + myName + ", has " + myName.Length + "in it.");
+            Console.WriteLine("My product list has " + productList.Count +  "in it.");
+            for (int i = 0; i < productList.Count - 1; i++)
+            {
+                Console.WriteLine("{0} has {1} letters in it.", productList[i], productList[i].Length);
+            }
+
             //Code block
         }
 
