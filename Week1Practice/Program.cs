@@ -161,8 +161,16 @@ namespace Week1Practice
             j = 15;
             while (j <= 30)
             {
+                if (j % 2 == 0)
+                    Console.WriteLine(j);
+                j++;
+            }
+            Console.WriteLine("While loop 100 to 75, every 5th number");
+            j = 100;
+            while (j >= 75)
+            {
                 Console.WriteLine(j);
-                j += 2;
+                j -= 5;
             }
             //Code block
         }
