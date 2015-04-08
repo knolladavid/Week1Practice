@@ -143,6 +143,21 @@ namespace Week1Practice
             {
                 Console.WriteLine(i);
             }
+            Console.WriteLine("While loop 1 to 10");
+            int j = 1;
+            while(j <=10)
+            {
+                Console.WriteLine(j);
+                j++;
+            }
+            Console.WriteLine("While loop 10 to 1");
+            j = 10;
+            while (j >= 1)
+            {
+                Console.WriteLine(j);
+                j--;
+            }
+
             //Code block
         }
 
